@@ -1,6 +1,8 @@
-# Uygulama 12
+# 20201132021
+## Kaan Altay Demiral
 
-`npm i` komutu uygulayarak node_modules klasörünü ekleyeblirsiniz.
+###İnternet Programcılığı Final Projesi (Online Sınav Portalı)
 
-Firebase Üyelik Sistemi ve Storage Kullanımı,  Fotoğraf Ekleme
+
+
 
