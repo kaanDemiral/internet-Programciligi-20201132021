@@ -1,0 +1,32 @@
+<div class="container mt-5">
+  <div class="row">
+
+    <div class="col-md-4">
+      <form [formGroup]="frm" (ngSubmit)="Kaydet()">
+        <div class="card">
+          <div class="card-header bg-warning text-black">
+            <h4>Profil Bilgileri</h4>
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label>Adı Soyadı</label>
+              <input type="text" class="form-control" formControlName="displayName">
+            </div>
+            <div class="form-group">
+              <label>Telefon</label>
+              <input type="text" class="form-control" formControlName="tel">
+            </div>
+            <div class="form-group">
+              <label>Adres</label>
+              <textarea rows="3" class="form-control" formControlName="adres"></textarea>
+            </div>
+          </div>
+          <div class="card-footer">
+            <input type="submit" class="btn btn-outline-warning text-black" value="Kaydet">
+          </div>
+        </div>
+      </form>
+    </div>
+    
+  </div>
+</div>
